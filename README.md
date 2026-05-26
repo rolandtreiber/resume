@@ -95,8 +95,6 @@ Most content changes should be made in Markdown or YAML:
 - Add or update publication entries in `content/blog/`
 - Replace the resume PDF at `static/uploads/resume.pdf`
 
-Featured images should live beside their content page as `featured.png`, `featured.jpg` or another Hugo-supported image format.
-
 ## Credits
 
 Built with [Hugo](https://gohugo.io/) and [Hugo Blox](https://hugoblox.com/).
