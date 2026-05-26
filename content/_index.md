@@ -1,12 +1,10 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
 summary: ''
 date: 2026-01-05
 type: landing
 
 sections:
-  # Developer Hero - Gradient background with name, role, social, and CTAs
   - block: dev-hero
     id: hero
     content:
@@ -18,15 +16,15 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "Java and Spring cloud systems"
+          - "Laravel and React products"
+          - "secure e-commerce platforms"
+          - "mobile apps that ship"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
       cta_buttons:
-        - text: View My Work
+        - text: View Projects
           url: "#projects"
           icon: arrow-down
         - text: Get In Touch
@@ -42,13 +40,12 @@ sections:
           dark: "#0a0a0f"
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
-  
-  # Filterable Portfolio - Alpine.js powered project filtering
+
   - block: portfolio
     id: projects
     content:
-      title: "Featured Projects"
-      subtitle: "A selection of my recent work"
+      title: "Selected Projects"
+      subtitle: "Production systems, products and platforms I have built or led"
       count: 0
       filters:
         folders:
@@ -56,18 +53,15 @@ sections:
       buttons:
         - name: All
           tag: '*'
+        - name: E-Commerce
+          tag: E-Commerce
+        - name: Mobile
+          tag: Mobile
         - name: Full-Stack
           tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
+        - name: Java
+          tag: Java
       default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false  # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
     design:
       columns: 3
       background:
@@ -76,54 +70,53 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Visual Tech Stack - Icons organized by category
+
   - block: tech-stack
     id: skills
     content:
       title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      subtitle: "Certified Java, Spring and AWS expertise, plus the tools I use to ship full-stack products"
       categories:
-        - name: Languages
+        - name: Backend
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
-            - name: Python
-              icon: devicon/python
-            - name: Go
-              icon: devicon/go
+            - name: Java
+              icon: devicon/java
+            - name: Spring Boot
+              icon: devicon/spring
+            - name: PHP
+              icon: devicon/php
+            - name: Laravel
+              icon: devicon/laravel
         - name: Frontend
           items:
             - name: React
               icon: devicon/react
             - name: Next.js
               icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
+            - name: Vue.js
+              icon: devicon/vuejs
+            - name: TypeScript
+              icon: devicon/typescript
+        - name: Mobile
           items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
-            - name: PostgreSQL
-              icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
+            - name: React Native
+              icon: devicon/react
+            - name: Kotlin
+              icon: devicon/kotlin
+            - name: Firebase
+              icon: devicon/firebase
+            - name: Xcode
+              icon: devicon/xcode
+        - name: Cloud and Data
           items:
-            - name: Docker
-              icon: devicon/docker
             - name: AWS
               icon: devicon/amazonwebservices
-            - name: GitHub Actions
-              icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: Docker
+              icon: devicon/docker
+            - name: MySQL
+              icon: devicon/mysql
+            - name: MongoDB
+              icon: devicon/mongodb
     design:
       style: grid
       show_levels: false
@@ -133,8 +126,7 @@ sections:
           dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Experience Timeline
+
   - block: resume-experience
     id: experience
     content:
@@ -142,41 +134,81 @@ sections:
       date_format: Jan 2006
       items:
         - title: Senior Software Engineer
-          company: Tech Corp
+          company: Spyrosoft / BBC
           company_url: ''
           company_logo: ''
-          location: San Francisco, CA
-          date_start: '2023-01-01'
+          location: Remote to London
+          date_start: '2025-05-01'
           date_end: ''
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
+            * Contract senior Java engineer in the BBC Media Services Packaging and Access team
+            * Delivered work for BritBox UHD VOD content delivery
+            * Implemented custom IMF validation using Netflix Photon
+            * Implemented and deployed FMP4 HLS manifest creation affecting 43 live channels
+            * Set up an AWS Lambda subtitle processor to validate and repair broken subtitle files
+        - title: Lead Developer
+          company: Fortium Technologies
+          company_url: https://www.fortium.com
+          company_logo: ''
+          location: Bridgend
+          date_start: '2023-11-01'
+          date_end: '2025-03-31'
+          description: |2-
+            * Managed backend and frontend developers
+            * Contributed to securing a 250k grant by creating proof-of-concept work and supporting the application
+            * Participated in strategy meetings with clients including Disney
+            * Built a way to serve a full Linux desktop in-browser using Apache Guacamole and Spring Boot
+            * Planned and managed new projects using Next.js, AWS SAM and Java 17
+        - title: Contract Full-Stack Software Engineer
+          company: SoCrowd
           company_url: ''
           company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+          location: Birmingham
+          date_start: '2023-02-01'
+          date_end: '2023-09-30'
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
+            * Improved app user retention by 15% through feature upgrades and 30 critical bug fixes
+            * Containerized an application made of eight fragments so they could run together cleanly
+            * Planned a new API and MySQL database structure
+            * Introduced React into a new project and promoted Laravel 9 best practices
+            * Developed Java microservices using Spring Boot and promoted TDD
+        - title: Senior Full-Stack Software Engineer
+          company: Media Exchange Group
           company_url: ''
           company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
+          location: Remote to London
+          date_start: '2021-09-01'
+          date_end: '2023-02-28'
           description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            * Promoted to project lead within five months
+            * Built CI/CD automation for four AWS environments
+            * Interviewed, hired and mentored team members
+            * Led the project through launch, onboarding BBC and Deutsche Welle
+            * Delivered Java Spring Boot microservices, Laravel, Next.js and Vue.js features
+        - title: Senior Full-Stack Software Engineer
+          company: Worktribe
+          company_url: ''
+          company_logo: ''
+          location: Bristol
+          date_start: '2020-03-01'
+          date_end: '2021-09-30'
+          description: |2-
+            * Contributed to a real-time messaging application
+            * Implemented Firebase push notifications in a React Native application
+            * Fixed critical bugs across core software versions
+            * Built strong domain knowledge in education and research software
+        - title: Senior Backend Developer
+          company: LOQBOX
+          company_url: ''
+          company_logo: ''
+          location: Bristol
+          date_start: '2018-12-01'
+          date_end: '2020-03-31'
+          description: |2-
+            * Implemented automatic card payments for half a million active users
+            * Laid the foundation for automated payment processing services and backend APIs
+            * Used Laravel and AWS services in a live FinTech environment
+            * Mentored two team members and improved team performance
     design:
       columns: '1'
       background:
@@ -185,13 +217,12 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Recent Blog Posts
+
   - block: collection
     id: blog
     content:
-      title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
+      title: Publications
+      subtitle: 'Writing, teaching and technical walkthroughs'
       text: ''
       filters:
         folders:
@@ -208,17 +239,15 @@ sections:
           dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Contact Section
+
   - block: contact-info
     id: contact
     content:
       title: Get In Touch
-      subtitle: "Let's build something amazing together"
+      subtitle: "Let's talk about Java, cloud, full-stack product delivery or engineering leadership"
       text: |-
-        I'm always interested in hearing about new projects and opportunities.
-        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+        I am interested in senior engineering, contract and technical leadership opportunities where pragmatic architecture, clear communication and hands-on delivery matter.
+      email: hello@thecaringdeveloper.com
       autolink: true
     design:
       columns: '1'
@@ -228,22 +257,20 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # CTA Card
+
   - block: cta-card
     content:
-      title: "Open to Opportunities"
+      title: "Open to Senior Engineering Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
-        
-        Let's connect and discuss how I can help your team.
+        Certified Spring, AWS and Oracle Java developer with broad full-stack delivery experience across media, FinTech and e-commerce.
+
+        Download my latest resume or get in touch to discuss where I can help.
       button:
         text: 'Download Resume'
         url: uploads/resume.pdf
         new_tab: true
     design:
       card:
-        # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
         css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
         text_color: dark
       background:

@@ -2,99 +2,158 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Roland Treiber
+  given: Roland
+  family: Treiber
 postnominals: []
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+  icon: "💻"
+role: Senior Software Engineer
+email: hello@thecaringdeveloper.com
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Certified Spring Professional, AWS Certified Developer Associate and Oracle Certified Java developer with 10+ years of full-stack software engineering experience.
+  I specialise in Java/Spring, PHP/Laravel, React, Next.js, React Native and Kotlin Multiplatform, with deep experience in e-commerce, media services, cloud automation and team leadership.
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+  - name: Spyrosoft
+    url: https://spyro-soft.com/
+  - name: The Caring Developer
+    url: https://thecaringdeveloper.com
 
 links:
   - icon: at-symbol
-    url: mailto:alex@example.com
+    url: mailto:hello@thecaringdeveloper.com
     label: E-mail Me
+  - icon: link
+    url: https://thecaringdeveloper.com
+    label: Website
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: https://github.com/rolandtreiber
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: https://www.linkedin.com/in/roland-treiber/
+  - icon: brands/medium
+    url: https://hello-85764.medium.com/
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - Reading and self-development
+  - E-commerce platforms
+  - Media and entertainment technology
+  - FinTech
+  - Laser cutting and product design
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: Level 4 HNC in Business and Management
+    institution: West London College of Business & Management Sciences
+    start: 2016-01-01
+    end: 2018-01-01
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+      Business and management studies completed in London, UK.
+  - degree: 100+ completed professional courses
+    institution: Udemy and online learning
+    start: 2015-01-01
+    summary: |
+      Continued professional development across software engineering, cloud, mobile, AI/ML, testing, iOS, C++, Three.js and leadership.
 
 experience:
   - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+    org: Spyrosoft / BBC
+    start: 2025-05-01
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
+      Contract senior Java engineer in the BBC Media Services Packaging and Access team, working on UHD VOD delivery, FMP4 HLS manifest creation for 43 live channels, IMF validation with Netflix Photon and subtitle-processing automation with AWS Lambda.
+  - role: Lead Developer
+    org: Fortium Technologies
+    start: 2023-11-01
+    end: 2025-03-31
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
+      Managed backend and frontend developers, contributed to securing a 250k grant through proof-of-concept work, participated in client strategy meetings including Disney, and delivered projects using Java 17, Spring Boot, Next.js and AWS SAM.
+  - role: Contract Full-Stack Software Engineer
+    org: SoCrowd
+    start: 2023-02-01
+    end: 2023-09-30
     summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      Upgraded a Laravel application, fixed 30 critical issues, improved user retention by 15%, containerized an eight-part system, introduced React on a new project, developed Spring Boot microservices and promoted TDD practices.
+  - role: Senior Full-Stack Software Engineer
+    org: Media Exchange Group
+    start: 2021-09-01
+    end: 2023-02-28
+    summary: |
+      Promoted to project lead within five months, built CI/CD automation for four AWS environments, hired and mentored developers, launched the platform with BBC and Deutsche Welle, and delivered Java, Laravel, Next.js and Vue.js features.
+  - role: Senior Full-Stack Software Engineer
+    org: Worktribe
+    start: 2020-03-01
+    end: 2021-09-30
+    summary: |
+      Contributed to a real-time messaging application, implemented Firebase push notifications in React Native and fixed critical bugs across versions of the core software.
+  - role: Senior Backend Developer
+    org: LOQBOX
+    start: 2018-12-01
+    end: 2020-03-31
+    summary: |
+      Built automatic card-payment processing for half a million active users, laid foundations for payment services and backend APIs with Laravel and AWS, and mentored teammates in a FinTech environment.
+  - role: Senior Full-Stack Software Engineer
+    org: OpalTec
+    start: 2016-10-01
+    end: 2018-09-30
+    summary: |
+      Managed four company websites as sole developer, migrated legacy sites to Laravel, launched CRM, e-commerce, booking and repair-tracking systems, and built Android applications and Microsoft Dynamics CRM integrations.
 
 skills:
-  - name: Development
+  - name: Backend
     items:
-      - label: TypeScript
+      - label: Java 21 / Spring Boot
         level: 5
-      - label: React
+      - label: PHP / Laravel 10-11
         level: 5
-      - label: Node.js
-        level: 5
-      - label: Python
+      - label: Node.js / Express.js
         level: 4
-  - name: DevOps
+      - label: API Design
+        level: 5
+  - name: Frontend and Mobile
     items:
+      - label: React / Next.js
+        level: 5
+      - label: Vue.js
+        level: 4
+      - label: React Native
+        level: 5
+      - label: Kotlin Multiplatform
+        level: 4
+  - name: Cloud and DevOps
+    items:
+      - label: AWS / Serverless
+        level: 5
       - label: Docker
-        level: 4
-      - label: AWS
-        level: 4
-      - label: CI/CD
         level: 5
+      - label: Jenkins CI/CD
+        level: 5
+      - label: Linux
+        level: 5
+  - name: Data
+    items:
+      - label: MySQL / Aurora
+        level: 5
+      - label: DynamoDB
+        level: 4
+      - label: MongoDB
+        level: 4
+      - label: GraphQL
+        level: 4
 
 languages:
   - name: English
     level: 5
     label: Native
+  - name: German
+    level: 4
+    label: Proficient
 
-awards: []
+awards:
+  - title: Spring Certified Professional 2024 - 2V0-72.22
+    date: 2024-04-01
+    awarder: VMware
+  - title: AWS Certified Developer - Associate
+    date: 2024-01-01
+    awarder: Amazon Web Services
+  - title: Oracle Certified Professional, Java SE 11 Programmer
+    date: 2023-01-01
+    awarder: Oracle
