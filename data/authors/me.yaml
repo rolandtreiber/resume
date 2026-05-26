@@ -11,8 +11,8 @@ status:
 role: Senior Software Engineer
 email: hello@thecaringdeveloper.com
 bio: |
-  Certified Spring Professional, AWS Certified Developer Associate and Oracle Certified Java developer with 10+ years of full-stack software engineering experience.
-  I specialise in Java/Spring, PHP/Laravel, React, Next.js, React Native and Kotlin Multiplatform, with deep experience in e-commerce, media services, cloud automation and team leadership.
+  Senior software engineer based in Chepstow, Wales, with 10+ years of experience building scalable full-stack products and cloud systems.
+  I am the creator of Shoptopus, SyncBin and a growing set of maker tools for laser cutting and product previews. I specialise in Java/Spring, PHP/Laravel, React, Next.js, React Native and Kotlin Multiplatform, with deep experience in e-commerce, media services, cloud automation and team leadership.
 
 affiliations:
   - name: Spyrosoft
@@ -27,12 +27,17 @@ links:
   - icon: link
     url: https://thecaringdeveloper.com
     label: Website
+  - icon: link
+    url: https://syncbin.co.uk
+    label: SyncBin
   - icon: brands/github
     url: https://github.com/rolandtreiber
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/roland-treiber/
   - icon: brands/medium
     url: https://hello-85764.medium.com/
+  - icon: brands/youtube
+    url: https://www.youtube.com/@thecaringdeveloper
 
 interests:
   - Reading and self-development
@@ -40,6 +45,7 @@ interests:
   - Media and entertainment technology
   - FinTech
   - Laser cutting and product design
+  - Real-time sharing tools
 
 education:
   - degree: Level 4 HNC in Business and Management
@@ -144,16 +150,28 @@ languages:
     level: 5
     label: Native
   - name: German
-    level: 4
-    label: Proficient
+    level: 5
+    label: Fluent
+  - name: Hungarian
+    level: 5
+    label: Fluent
 
 awards:
   - title: Spring Certified Professional 2024 - 2V0-72.22
+    icon: brands/spring
     date: 2024-04-01
     awarder: VMware
+    summary: |
+      Completed the associated Spring professional courses and earned the VMware Spring Certified Professional credential.
   - title: AWS Certified Developer - Associate
+    icon: brands/amazonwebservices
     date: 2024-01-01
     awarder: Amazon Web Services
+    summary: |
+      Passed the DVA-C02 AWS Certified Developer - Associate exam, validating practical knowledge of AWS developer services, serverless application patterns, deployment and cloud integration.
   - title: Oracle Certified Professional, Java SE 11 Programmer
+    icon: brands/oracle
     date: 2023-01-01
     awarder: Oracle
+    summary: |
+      Passed the OCP 1Z0-819 exam, validating professional Java SE 11 programming knowledge.

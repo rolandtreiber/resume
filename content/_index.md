@@ -20,6 +20,8 @@ sections:
           - "Laravel and React products"
           - "secure e-commerce platforms"
           - "mobile apps that ship"
+          - "real-time sharing tools"
+          - "maker tools for laser workflows"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -61,6 +63,12 @@ sections:
           tag: Full-Stack
         - name: Java
           tag: Java
+        - name: Open Source
+          tag: Open Source
+        - name: Maker Tools
+          tag: Maker Tools
+        - name: Kotlin
+          tag: Kotlin
       default_button_index: 0
     design:
       columns: 3
@@ -124,6 +132,21 @@ sections:
         color:
           light: "#f5f5f5"
           dark: "#08080c"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+
+  - block: resume-awards
+    id: certifications
+    content:
+      username: me
+      title: Certifications
+      text: "Professional credentials extracted from my latest resume."
+    design:
+      date_format: "2006"
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
@@ -222,13 +245,13 @@ sections:
     id: blog
     content:
       title: Publications
-      subtitle: 'Writing, teaching and technical walkthroughs'
+      subtitle: 'Articles, teaching and technical walkthroughs'
       text: ''
       filters:
         folders:
           - blog
         exclude_featured: false
-      count: 3
+      count: 6
       order: desc
     design:
       view: card
